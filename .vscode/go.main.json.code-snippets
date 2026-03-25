@@ -1,0 +1,13 @@
+{
+	"Go function template": {
+		"prefix": "gofn",
+		"body": [
+			"package main",
+			"",
+			"func ${1:funcName}() {",
+			"\t$0",
+			"}"
+		],
+		"description": "Create a basic Go function template"
+	}
+}
